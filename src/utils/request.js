@@ -2,7 +2,6 @@ import Axios from 'axios'
 const axios = Axios.create({
   timeout: 60000, // 超时
   baseURL: 'http://localhost/api/' // 调试地址
-  // baseURL: 'http://suepai.com.cn/api/' // 部署地址
 })
 
 // 请求拦截
